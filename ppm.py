@@ -4,7 +4,7 @@ from collections import defaultdict
 class PPM(object):
     def __init__(self, length):
         if length <= 0:
-            raise ValueError('length must not be positive')
+            raise ValueError('length must be positive')
 
         self._length = length
         self._pred = defaultdict(int)
