@@ -1,0 +1,12 @@
+
+Demo of alternative input method for embedded systems based on
+prediction by partial matching.
+
+The Dasher project has a bunch of corpora that can be used as
+training data: http://www.inference.phy.cam.ac.uk/dasher/download/
+
+Dependencies:
+* PyGTK
+
+Usage:
+./ui.py corpus.txt 5
